@@ -1,0 +1,294 @@
+label {
+
+	color:#03F;
+
+	font-weight:bold
+
+}
+
+input[type=text] {
+
+	width:250px;
+
+	height:20px
+
+}
+
+input[type=submit] {
+
+	width:50px;
+
+	height:30px;
+
+	padding: 4px 9px;
+
+	font-weight:bold;
+
+	color:#00F
+
+}
+
+a:link {
+
+	color:#06F;
+
+	text-outline:none
+
+}
+
+a:visited {
+
+  color: #06F;
+
+}
+
+a:hover {
+
+  color: #06F;
+
+  font-style:italic
+
+}
+
+
+
+a:active {
+
+  color: blue;
+
+}
+
+a {
+
+	text-decoration:none
+
+}
+
+.to {
+
+    display: none;
+
+    grid-template-columns: repeat(12,1fr);
+
+    grid-template-rows: minmax(100px,auto);
+
+	z-index: 1000;
+
+	position:absolute;
+
+	top: 25%;
+
+	left: 40%;
+
+	width: 100%;
+
+}
+
+ 
+
+.form {
+
+    border: 1px solid #80808000;
+
+    grid-column: 6/9;
+
+    grid-row: 2;
+
+    height: 250px;
+
+    width: 350px;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 14px 0px grey;
+
+    background-color: white;
+
+	position: absolute;
+
+	top: auto;
+
+	left: auto;
+
+}
+
+
+
+
+
+.form h2 {
+
+    margin-top: 20px;
+
+    margin-bottom: 10px;
+
+}
+
+.form label {
+
+    font-weight: lighter;
+
+	text-align:left; 
+
+}
+
+.form input{
+
+    margin-top: 6px;
+
+    outline-style: none;
+
+}
+
+.form input[type=text], .form input[type=password] {
+
+    display: block;
+
+    padding: 5px;
+
+}
+
+.form input[type=button] {
+
+	height:30px;
+
+	padding: 4px 9px;
+
+	font-weight:bold;
+
+	margin:5px;
+
+}
+
+.form input[type=checkbox] {
+
+	margin: 5px;
+
+}
+
+.form p{
+
+	margin: 0px 0px;
+
+}
+
+.form a {
+
+	text-decoration:none;
+
+	color:blue;
+
+	margin:10px; 
+
+}
+
+.form a:hover {
+
+	font-style:italic;
+
+}
+
+.close {
+
+	position:absolute;
+
+	right:0px;
+
+	padding-top:5px;
+
+	padding-right:5px;
+
+}
+
+#text-captcha {
+
+	width:50px;
+
+	float:left;
+
+	height:15px;
+
+}
+
+.captcha {
+
+	height:30px;
+
+	border:medium;
+
+	margin-top:5px;
+
+}
+
+.contest {
+
+	width:500px;
+
+	height:200px;
+
+	border:solid;
+
+	border-color:#999;
+
+	padding-top:50px;
+
+}
+
+.contest input[type=text] {
+
+	width:200px;
+
+}
+
+.contest img {
+
+	height:25px;
+
+	border:medium;
+
+	margin-top:5px;
+
+}
+
+.contest p{
+
+	margin:5px;
+
+}
+
+.lostCode {
+
+	width:500px;
+
+	height:200px;
+
+	position:fixed;
+
+	top: 50%;
+
+	left:50%;
+
+	transform: translate(-50%, -40%);
+
+	color:#03C;
+
+	padding:10px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  color: #333;
+  font-size: 14px;
+
+}
